@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+ #primero{
+    background-color: #A77979;
+}
+#segundo{
+    background-color: #1bc43a;
+    
+}
+#tercero{
+    background-color: #704F4F;
+}
+#cuarto{
+    background-color: #7b0c72;
+} 
+.layout{
+    padding: 1rem;
+    width: auto;
+    color:aquamarine;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px 20px;
+}
+
+.cuadrado{
+    height: 200px;
+    width: 200px;
+    border: 3px solid aliceblue;
+    border-radius: 10px;
+ 
+}
